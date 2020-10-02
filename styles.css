@@ -1,0 +1,157 @@
+#image1{
+    border-radius: 99px;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#image2{
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin: 5px;
+
+}
+#image3{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 5px;
+
+}
+text{
+    font-size:18px;
+    color:#2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+.float {
+    width: 960px;
+    margin: 0 auto; 
+  }
+  
+header {
+    background:  #63B3ED;
+    padding:  15px;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .box {
+    
+    border: 1px solid  #63B3ED ;
+    padding: 1em;
+    text-align: center;
+  }
+  h1 {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;  
+}
+aside{
+    background: #E2E8F0;
+    float: right;
+    width: 30%;
+    color: #2D3748;
+    text-align: left;
+    padding:10px;
+   
+}
+article{
+    background:#FFFFFF;
+    float: left;
+    width: 55%;
+    margin-right: 5%;
+    color:#2D3748;
+}
+#link1{
+    color:#4299E1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+#link2{
+    color:#4299E1;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+footer{
+    background: #2C5282;
+    color:#FFFFFF;
+    clear: both;
+    padding: 5px;
+}
+h2{
+    font-size: 32px;
+    color:#48BB78;
+}
+h6{
+    color:#718096;
+
+}
+aside,
+#About{
+    color:#000000;
+    font-family: Georgia,'Times New Roman', Times, serif;
+    
+}
+aside,
+h3{
+   color: #48BB78;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+   
+   
+}
+aside,
+#me{
+    color:#2D3748;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+}
+aside,
+#social{
+    background: #FFFFFF;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    grid-template-rows: 150px 150px 150px; 
+    grid-gap: 5px;
+  }
+  
+  .grid-item {
+    border-radius: 6px;
+    padding: 24px 15px;
+    text-align: left;
+  }
+  
+ article,
+  #box1 {
+    grid-column: 1 / 3; 
+    grid-row:1/3;
+    
+  }
+  
+ aside,
+  #box2 {
+    grid-column: 3;
+    grid-row: 1 / 3;
+   
+  }
+  
+ footer,
+  #box3 {
+    grid-column: 1/4;
+    grid-row: 3;
+   
+  }
+  aside,
+  #a{
+      background:#FFFFFF;
+  }
+  #Aboutme{
+      background:#E2E8F0 ;
+      padding: 10px;
+  }
+  
+  
